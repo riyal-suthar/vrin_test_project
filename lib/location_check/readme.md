@@ -58,7 +58,7 @@ class CheckLoc {
 #### 4. Integrate with pages
 There is multiple ways to integrate location with pages, we use `FutureBuilder` Widget.
 
-```dart
+```
 FutureBuilder(
           future: CheckLoc.checkLoc(),
           builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
